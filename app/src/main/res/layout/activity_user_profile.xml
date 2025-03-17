@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp">
+
+    <LinearLayout
+        android:id="@+id/profile_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@id/bottom_navigation"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp">
+
+            <ImageView
+                android:id="@+id/user_avatar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/amongus" />
+
+            <TextView
+                android:id="@+id/user_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/user_avatar"
+                android:layout_marginStart="16dp"
+                android:textSize="17sp"
+                android:text="Profile Name"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@id/user_avatar"/>
+
+            <Button
+                android:id="@+id/edit_profile_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:text="Edit" />
+
+            <Button
+                android:id="@+id/addGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/user_profile_name"
+                android:layout_alignBottom="@+id/user_profile_name"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="185dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="-2dp"
+                android:text="Add Game"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/about_me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Me"
+            android:paddingTop="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/user_about_me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Here is a brief about me..."
+            android:paddingTop="4dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/gaming_preferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gaming Preferences and Interest"
+            android:paddingTop="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/user_gaming_preferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details about gaming preferences and interests..."
+            android:paddingTop="4dp"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Game Library"
+            android:gravity="left"/>
+
+        <ListView
+            android:id="@+id/displayGame"
+            android:layout_width="wrap_content"
+            android:layout_height="207dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="0dp">
+            <TextView
+                android:id="@+id/achievementView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Achievement"
+                android:gravity="left"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/achievementsRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/achievementView"/>
+
+            <Button
+                android:id="@+id/go_to_achievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:text="View all"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/bottom_navigation"
+        layout="@layout/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

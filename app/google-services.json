@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1072870637427",
+    "firebase_url": "https://csci4176-group11-project-default-rtdb.firebaseio.com",
+    "project_id": "csci4176-group11-project",
+    "storage_bucket": "csci4176-group11-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072870637427:android:eb81ba13d0112849d58f06",
+        "android_client_info": {
+          "package_name": "com.example.myfirstapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhMXDivPlp33MpCavrn9qfx8QT6_GxClU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

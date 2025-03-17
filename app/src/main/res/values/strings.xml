@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="unlock_all_achievements">Unlock All Achievements</string>
+    <string name="lock_all_achievements">Lock All Achievements</string>
+    <string name="join_event">Join Event</string>
+    <string name="participants">Participants:</string>
+    <string name="welcomeMessage">GameHub\n Entertainment Social Media</string>
+    <string name="login">Login</string>
+    <string name="join">Join Now</string>
+    <string name="welcome_image_description" />
+    <string name="explore_the_gamin_world">Explore the Gaming World</string>
+    <string name="explore_the_gamin_world_message"><![CDATA[Discover new friends, games, and communities. Share your gaming experiences & achievements]]></string>
+    <string name="home_activity">Home Activity</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="submit">Submit</string>
+    <string name="Username" />
+    <string name="register_here">Register Here</string>
+    <string name="username">Username</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="user_login">User Login</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="post_image_description" />
+    <string name="back">Back</string>
+    <string name="leaderboard">Leaderboard</string>
+</resources>

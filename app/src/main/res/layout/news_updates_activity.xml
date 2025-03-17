@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/firstTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="614dp"
+        android:text="NEWS AND UPDATES"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/game"
+        android:layout_width="172dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="game of the"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gameday" />
+
+    <ImageButton
+        android:id="@+id/insights"
+        android:layout_width="172dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="player insights"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/insights" />
+
+    <ImageButton
+        android:id="@+id/strategies"
+        android:layout_width="195dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="282dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="375dp"
+        android:contentDescription="Strategies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/strategies" />
+
+    <ImageButton
+        android:id="@+id/game_reviews"
+        android:layout_width="195dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="470dp"
+        android:contentDescription="Game reviews"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gamereviews" />
+
+    <ImageButton
+        android:id="@+id/gaming"
+        android:layout_width="195dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="282dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="375dp"
+        android:contentDescription="gaming"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gaming" />
+
+    <ImageButton
+        android:id="@+id/latest"
+        android:layout_width="195dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="470dp"
+        android:contentDescription="latest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/latest" />
+
+    <ImageButton
+        android:id="@+id/addNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="349dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="675dp"
+        android:contentDescription="Add news and updates"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <include
+        android:id="@+id/bottom_navigation"
+        layout="@layout/bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

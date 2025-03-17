@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tool:context=".AddFeedActivity">
+
+    <View
+        android:id="@+id/centeringGuide"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/centeringGuide"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile_placeholder"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/postEditText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/centeringGuide"
+        android:layout_marginTop="8dp"
+        android:hint="Write your post here"
+        android:inputType="textMultiLine"
+        android:gravity="start|top"/>
+
+    <TextView
+        android:id="@+id/addScreenshotLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/postEditText"
+        android:layout_marginTop="16dp"
+        android:text="Add screenshots"/>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/screenshotsGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addScreenshotLabel"
+        android:layout_marginTop="8dp"
+        app:alignmentMode="alignMargins"
+        app:rowCount="1"
+        app:columnOrderPreserved="false"
+        app:columnCount="3">
+
+        <ImageButton
+            android:id="@+id/addImage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <ImageButton
+            android:id="@+id/addImage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <ImageButton
+            android:id="@+id/addImage3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:id="@+id/sharePostButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/screenshotsGrid"
+        android:layout_marginTop="10dp"
+        android:text="Share Post"/>
+</RelativeLayout>

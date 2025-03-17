@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/avatar_one_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar_one"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <ImageView
+        android:id="@+id/avatar_two_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar_two"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <ImageView
+        android:id="@+id/avatar_three_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar_three"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <ImageView
+        android:id="@+id/avatar_four_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar_four"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <ImageView
+        android:id="@+id/avatar_five_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar_five"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <ImageView
+        android:id="@+id/avatar_six_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar_six"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+</LinearLayout>

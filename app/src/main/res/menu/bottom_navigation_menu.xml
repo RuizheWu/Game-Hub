@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"/>
+    <item
+        android:id="@+id/navigation_group"
+        android:icon="@drawable/baseline_group_alt_24"
+        android:title="Groups"/>
+    <item
+        android:id="@+id/navigation_new_post"
+        android:icon="@drawable/baseline_add_box_24"
+        android:title="Post"/>
+    <item
+        android:id="@+id/navigation_news_and_update"
+        android:icon="@drawable/baseline_news_24"
+        android:title="News and Update"/>
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/baseline_profile_24"
+        android:title="Profile"/>
+</menu>
